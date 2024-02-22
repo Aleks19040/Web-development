@@ -1,1 +1,0 @@
-alert("Hi am alex welcome to my site");
