@@ -10,4 +10,34 @@ body{
   margin: 0; 
   text-decoration: none;
   box-sizing: border-box;
+  background image
+}
+
+nav{
+height: 80px;
+width:100% ;
+
+
+
+}
+nav ul{
+ float: right;
+ margin-right: 20px;
+
+
+
+}
+nav ul li{
+
+display:inline-block ;
+line: height 80px; ;
+margin: 0 5px;
+
+
+
+
+
+
+
+
 }
