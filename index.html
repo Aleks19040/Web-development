@@ -3,38 +3,96 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>alex kipchirchir website</title>
-    <link rel="stylesheet" href="style.css">
-    <script type="text/javascript" src="script.js"></script>
+    <title>Document</title>
 </head>
 <body>
-    <h1>CODE WITH ALEX</h1>
-   <nav>
-          <ul>
+    <!-- image_links.html -->
 
-
-             <li><a href="">Home</a></li>
-             <li><a href="">About</a></li>
-             <li><a href="">Blog</a></li>
-             <li><a href="">About us</a></li>
-             <li><a href="">Services</a></li>
-
-
-
-
-        
-
-
-
-
-          </ul>
-
-
-
-
-
-   </nav>
-
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Links</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+       .gallery {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 10px;
+        }
+       .gallery img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Image Links</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#menu">Menu</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="home">
+            <h2>Welcome to Image Links!</h2>
+            <p>This is a sample webpage with linked images.</p>
+            <a href="https://www.techwebsite.com">
+                <img src="tech_image.jpg" alt="Technology Image">
+            </a>
+        </section>
+        <section id="gallery">
+            <h2>Nature Gallery</h2>
+            <div class="gallery">
+                <a href="https://www.naturewebsite.com/mountains">
+                    <img src="mountain_image.jpg" alt="Mountain Image">
+                </a>
+                <a href="https://www.naturewebsite.com/oceans">
+                    <img src="ocean_image.jpg" alt="Ocean Image">
+                </a>
+                <a href="https://www.naturewebsite.com/forests">
+                    <img src="forest_image.jpg" alt="Forest Image">
+                </a>
+            </div>
+        </section>
+        <section id="menu">
+            <h2>Food Menu</h2>
+            <ul>
+                <li>
+                    <a href="https://www.foodwebsite.com/pizza">
+                        Pizza
+                        <img src="pizza_image.jpg" alt="Pizza Image">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.foodwebsite.com/sushi">
+                        Sushi
+                        <img src="sushi_image.jpg" alt="Sushi Image">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.foodwebsite.com/tacos">
+                        Tacos
+                        <img src="tacos_image.jpg" alt="Tacos Image">
+                    </a>
+                </li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Image Links</p>
+    </footer>
+</body>
+</html>
 </body>
 </html>
